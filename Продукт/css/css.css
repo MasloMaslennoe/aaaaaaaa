@@ -1,0 +1,108 @@
+html{
+	scroll-behavior: smooth;/* Перенос к разделы становиться плавным */
+}
+.header {/* обращаемся к классу header */
+    background-color: #181818;/* меняем цвет фона */
+    padding: 12px;/*Внутренние отступы*/
+}
+body{
+    margin: 0;/* Приравниваем внешний отступ к 0*/
+}
+.nav{
+    display: flex;/* display определяет тип отображения */
+    width: 35%;/* Ширина*/
+    margin: 0 auto; /*Выравнивание по центру*/
+}
+.header_logo{
+    width: 100px;
+    height: 45px;/* Высота*/
+}
+.nav_list{
+    display: flex;
+}
+.nav_list_item{
+    list-style: none;/* Убрать маркировку списка*/
+    margin-right: 50px;
+}
+.nav_a{
+    text-decoration: none;/*Убрать декорации ссылок*/
+    color: #ffffff;/*Цвет текста*/
+}
+.nav_a:hover{/*Псевдокласс активируемый при наведении на обьект*/
+    color: #E0012C;/*Цвет текста*/
+    transition: 600ms;/*Время смены цвета*/
+}
+
+
+
+.section_1{
+    background-color: #262626;
+    padding: 50px;
+}
+.container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.img{
+    width: 50%;
+}
+.heading{
+    color:  #E0012C;
+    text-align: center;/*Выравнивание текста*/
+    font-size: 40px;/*Размер шрифта*/
+    margin: 0;
+}
+.text{
+    color:  #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.section_2{
+    background-color: #393939;
+    padding: 50px;
+}
+
+.video-container{
+    width: 50%;
+    margin: 0 auto;
+    height: 400px;
+}
+.PlayerList{
+    color:  #E0012C;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #181818;
+    padding: 12px;
+}
+.footer_p{
+    color: #ffffff;
+}
+
+.PlayerInfo{
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.text-container{
+    width: 50%;
+}
+
+.up_button{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	position: fixed ; /*Закрепляет кнопку на экране*/
+	top: 90%;
+	right: 0;
+	bottom: 0;
+	left: 95%; /*Позиция кнопки на экране*/
+	border-radius: 100%;
+	border-color: #E0012C ;
+}
